@@ -3,16 +3,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //прочитать "программу робота", то есть строку из консоли
-        String proga = readProga();
-        //интерпретировать "программу робота" в соответствии с условием, то есть про    ти строку посимвольно
-        //runProga(proga);
+//        //прочитать "программу робота", то есть строку из консоли
+//        String proga = readProga();
+//        //интерпретировать "программу робота" в соответствии с условием, то есть про    ти строку посимвольно
+//        //runProga(proga);
+//
+//        // MapRobot.printField (MapRobot.createField());
+//
+//        Robot robot = new Robot();
+//        runProgaForRobot(proga, robot, MapRobot.createField());
 
-        // MapRobot.printField (MapRobot.createField());
-
-        Robot robot = new Robot();
-        runProgaForRobot(proga, robot, MapRobot.createField());
-
+//        Robot rob1 = new Robot();
+   Cat.InputCats(2);
 
 
     }
@@ -147,4 +149,6 @@ public class Main {
 class Robot{
     int x=8, y=8;
     String direction="right"; //"left", "up", "down"
+
+    public Robot(){};
 }
